@@ -96,8 +96,8 @@ After extensive testing, Nemotron-Mini-4B-Instruct was chosen for:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/arc-game.git
-cd arc-game
+git clone https://github.com/Faiziab/ARC-AI.git
+cd ARC-AI
 ```
 
 2. Install requirements:
@@ -144,7 +144,7 @@ ARC GAME STRUCTURE
 ```
 
 ## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the NVIDIA Community Model License - see the LICENSE file for details.
 
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
