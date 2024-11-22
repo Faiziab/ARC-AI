@@ -96,8 +96,8 @@ After extensive testing, Nemotron-Mini-4B-Instruct was chosen for:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/arc-game.git
-cd arc-game
+git clone https://github.com/Faiziab/ARC-AI.git
+cd ARC-AI
 ```
 
 2. Install requirements:
