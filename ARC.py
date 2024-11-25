@@ -7,7 +7,7 @@ from huggingface_hub import login
 import gc
 import textwrap
 
-class ARCGameWithMistral:
+class ARCGame:
     def __init__(self, model_name='nvidia/Nemotron-Mini-4B-Instruct'):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         print(f"Loading model on {self.device} with memory optimization...")
@@ -365,7 +365,7 @@ def play_arc_game():
     Main game loop for ARC Game with Mistral.
     """
     try:
-        game = ARCGameWithMistral()
+        game = ARCGame()
 
         print(game.ascii_art['start'])
         print("\n🌟 MISSION BRIEFING 🌟")
