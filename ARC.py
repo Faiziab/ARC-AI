@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*
-
-
-
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import random
@@ -11,17 +8,7 @@ import gc
 import textwrap
 
 class ARCGameWithMistral:
-    """
-    Conversational AI game using Mistral language model.
-    """
-
     def __init__(self, model_name='nvidia/Nemotron-Mini-4B-Instruct'):
-        """
-        Initialize game with Mistral model.
-
-        Args:
-        model_name (str): Name of the Mistral model.
-        """
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         print(f"Loading model on {self.device} with memory optimization...")
 
