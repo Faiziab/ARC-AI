@@ -102,7 +102,7 @@ cd ARC-AI
 
 2. Install requirements:
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 3. Get Model Access:
