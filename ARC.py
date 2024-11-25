@@ -225,7 +225,7 @@ Your Response:
             "dark_count": dark_count
         })
 
-    def generate_mistral_response(self, player_input: str) -> str:
+    def generate_response(self, player_input: str) -> str:
         """
         Generate response using Mistral model with memory optimization.
         """
@@ -398,7 +398,7 @@ to do with the knowledge it holds.
                     print("\n--- GAME OVER ---")
 
                 else:
-                    arc_response = game.generate_mistral_response(player_input)
+                    arc_response = game.generate_response(player_input)
                     print(f"\n🤖 ARC: {game.wrap_text(arc_response)}")
 
                     game.display_game_status()
